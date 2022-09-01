@@ -14,5 +14,9 @@ const everydayPack = new Backpack(
   false
 );
 
+const jillianPack = new Backpack("My basics", 20, "Gold", 15, 22, 21, true);
+
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
+console.log("Jillian pack :)", jillianPack);
+console.log("The pocketNumber value of jillianPack is:", jillianPack.pocketNum);
